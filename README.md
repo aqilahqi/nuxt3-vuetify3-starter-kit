@@ -1,63 +1,34 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 + Vuetify 3 Starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+I've created a starter kit for Nuxt 3 and Vuetify along with eslint setup. Be sure to have [EsLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension installed in your VSCode for it to automatically format following the set of rules.
 
-## Setup
+- For further Nuxt 3 documentation, please look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction).
+- I referred to `Program with Erik`'s youtube video to set this up. Here's a link to his [video](https://www.youtube.com/watch?v=xB7c0G3kVuw&t=560s).
 
-Make sure to install the dependencies:
+## What I used
+- `Nuxt 3`
+- `Vuetify 3`
 
-```bash
-# npm
+## Project Setup
+
+```sh
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
 ```
 
-## Development Server
+### Compile and Hot-Reload for Development
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+```sh
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
 ```
 
-## Production
+### Compile and Minify for Production
 
-Build the application for production:
-
-```bash
-# npm
+```sh
 npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
 ```
 
-Locally preview production build:
+### Lint with [ESLint](https://eslint.org/)
 
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
+```sh
+npm run lint
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
