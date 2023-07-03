@@ -1,6 +1,6 @@
 # Nuxt 3 + Vuetify 3 Starter
 
-I've created a starter kit for Nuxt 3 and Vuetify along with eslint setup. Be sure to have EsLint and Prettier extension installed in your VSCode for it to automatically format following the set of rules.
+I've created a starter kit for Nuxt 3 and Vuetify along with eslint setup. Be sure to have [EsLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension installed in your VSCode for it to automatically format following the set of rules.
 
 - For further Nuxt 3 documentation, please look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction).
 - I referred to `Program with Erik`'s youtube video to set this up. Here's a link to his [video](https://www.youtube.com/watch?v=xB7c0G3kVuw&t=560s).
