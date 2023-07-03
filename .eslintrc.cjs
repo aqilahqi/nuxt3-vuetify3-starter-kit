@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   extends: [
-    '@nuxtjs',
+    '@nuxt/eslint-config',
     'plugin:prettier/recommended',
     'plugin:nuxt/recommended',
     'plugin:vue/vue3-recommended',
