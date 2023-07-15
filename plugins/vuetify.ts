@@ -2,13 +2,14 @@ import { createVuetify, ThemeDefinition } from 'vuetify';
 import * as components from 'vuetify/components';
 import * as directives from 'vuetify/directives';
 import { aliases, mdi } from 'vuetify/iconsets/mdi';
+import variables from 'assets/scss/_variables.module.scss';
 
 const myTheme: ThemeDefinition = {
   colors: {
-    primary: '#0E0F10',
-    secondary: '#3D4257',
-    'secondary-lighten-1': '#6A749F',
-    success: '#4B9761',
+    primary: variables.primary,
+    secondary: variables.secondary,
+    'secondary-lighten-1': variables.secondaryLighten1,
+    success: variables.success,
   },
 };
 
@@ -24,6 +25,7 @@ export default defineNuxtPlugin((nuxtApp) => {
       },
     },
     theme: {
+      defaultTheme: 'myTheme',
       themes: {
         myTheme,
       },

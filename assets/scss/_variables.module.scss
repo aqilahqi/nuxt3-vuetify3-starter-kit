@@ -1,0 +1,11 @@
+$primary: #0E0F10;
+$secondary: #3D4257;
+$secondary-lighten-1: #6A749F;
+$success: #4B9761;
+
+:export {
+  primary: $primary;
+  secondary: $secondary;
+  secondaryLighten1: $secondary-lighten-1;
+  success: $success
+}

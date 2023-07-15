@@ -17,7 +17,7 @@ module.exports = {
     'vue/multi-word-component-names': [
       'error',
       {
-        ignores: ['index', 'Index'],
+        ignores: ['index', 'Index', 'default', 'Navbar', 'Footer'],
       },
     ],
   },
